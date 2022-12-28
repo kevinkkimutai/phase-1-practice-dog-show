@@ -13,9 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     sexs.innerText = sex
     const edit = document.createElement('td');
     const btn = document.createElement('button');
-    btn.addEventListener('click', () => {
-        console.log('clicked')
-     })
+   
  
     btn.classList.add('button');
     btn.innerHTML = "Edit Dog"
